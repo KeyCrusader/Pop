@@ -5,10 +5,13 @@
   "name": "Pop!",
   "description": "A mod that makes bubble particles pop!",
   "authors": [
-    "keycrusader",
+    "KeyCrusader",
     "KingPhygieBoo"
   ],
-  "contact": {},
+  "contact": {
+    "sources" : "https://github.com/KeyCrusader/Pop",
+    "issues" : "https://github.com/KeyCrusader/Pop/issues"
+  },
   "license": "MIT",
   "icon": "assets/pop/pop.gif",
   "environment": "client",
