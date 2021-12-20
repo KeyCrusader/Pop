@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pop",
+  "version": "${version}",
+  "name": "Pop!",
+  "description": "A mod that makes bubble particles pop!",
+  "authors": [
+    "keycrusader",
+    "KingPhygieBoo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pop/pop.gif",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "keycrusader.pop.Pop"
+    ],
+    "main": [
+    ],
+    "modmenu": [
+      "keycrusader.pop.PopModMenu"
+    ]
+  },
+  "mixins": [
+    "pop.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1",
+    "cloth-config": ">=6.1.48",
+    "modmenu": ">=3.0.1"
+  }
+}
