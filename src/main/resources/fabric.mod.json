@@ -13,7 +13,7 @@
     "issues" : "https://github.com/KeyCrusader/Pop/issues"
   },
   "license": "MIT",
-  "icon": "assets/pop/pop.gif",
+  "icon": "assets/pop/pop.png",
   "environment": "client",
   "entrypoints": {
     "client": [
